@@ -1,3 +1,4 @@
+/*Header*/
 header {
   display: flex;
   align-items: center;
@@ -37,4 +38,56 @@ nav span {
 
 a {
   color: black;
+}
+
+/*Content*/
+.content {
+  display: flex;
+
+
+}
+.column {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.column-large {
+  width: 630px;
+}
+
+.column-medium {
+  width: 300px;
+}
+
+.column-small {
+  width: 240px;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.stories .text-content {
+  height: 250px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
 }
